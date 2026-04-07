@@ -41,11 +41,11 @@ export default function Header({
           <div>
             <div
               style={{
-                fontSize: "0.62rem",
+                fontSize: "0.9rem",
                 letterSpacing: "0.25em",
                 textTransform: "uppercase",
                 color: "#999",
-                marginBottom: "0.2rem",
+                marginBottom: "0.6rem",
               }}
             >
               The Norwegian Book Club · 2002
@@ -53,7 +53,7 @@ export default function Header({
             <h1
               style={{
                 margin: 0,
-                fontSize: "clamp(1.3rem,3vw,2rem)",
+                fontSize: "clamp(1.6rem,3vw,2rem)",
                 fontWeight: "normal",
                 letterSpacing: "-0.02em",
                 lineHeight: 1,
@@ -63,9 +63,9 @@ export default function Header({
             </h1>
             <div
               style={{
-                fontSize: "0.7rem",
+                fontSize: "0.9rem",
                 color: "#888",
-                marginTop: "0.2rem",
+                marginTop: "0.7rem",
               }}
             >
               The greatest works of world literature
