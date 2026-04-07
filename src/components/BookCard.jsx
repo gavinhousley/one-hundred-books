@@ -18,7 +18,7 @@ export default function BookCard({ book, zoom, onClick }) {
       className={styles.card}
       onClick={onClick}
       style={{
-        borderTopColor: regionColors[book.region],
+        background: `linear-gradient(${regionColors[book.region]} 10%,rgba(253, 250, 245, 0))`,
         padding: zoom > 0.7 ? "1rem" : "0.6rem",
       }}
     >

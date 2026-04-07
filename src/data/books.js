@@ -1,9 +1,9 @@
 const regionColors = {
-  Europe: "#2C3E7A",
-  Americas: "#2A6E4A",
-  Asia: "#8B3A1A",
-  "Middle East": "#7A5C1A",
-  Africa: "#5A7A2E",
+  Europe: "#4dbec4",
+  Americas: "#1a57a7",
+  Asia: "#f8dd43",
+  "Middle East": "#d89911",
+  Africa: "#e09a0f",
 };
 
 const books = [
