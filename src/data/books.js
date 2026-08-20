@@ -9,6 +9,7 @@ const regionColors = {
 const books = [
   {
     id: 1,
+    summary: "The Epic of Gilgamesh is an epic from ancient Mesopotamia that is the world's oldest surviving example of narrative literature. The literary history of Gilgamesh begins with five Sumerian poems about Gilgamesh, king of Uruk, some of which may date back to the Third Dynasty of Ur. These independent stories were later used as source material for a combined epic in Akkadian.",
     title: "Gilgamesh",
     author: "Anonymous",
     country: "Iraq",
@@ -21,6 +22,7 @@ const books = [
   },
   {
     id: 2,
+    summary: "The Iliad is one of two major surviving ancient Greek epic poems attributed to Homer. It is one of the oldest extant works of literature still widely read by modern readers. Like the Odyssey, the poem is divided into 24 books and was written in dactylic hexameter. It contains 15,693 lines in its standard edition.",
     title: "The Iliad",
     author: "Homer",
     country: "Greece",
@@ -33,6 +35,7 @@ const books = [
   },
   {
     id: 3,
+    summary: "The Odyssey is one of two major epics of ancient Greek literature attributed to Homer. It is one of the oldest surviving works of literature and remains popular with modern audiences. Like the Iliad, the Odyssey is divided into 24 books. It follows the heroic king of Ithaca, Odysseus, also known by the Latin variant Ulysses, and his homecoming journey after the ten-year-long Trojan War.",
     title: "The Odyssey",
     author: "Homer",
     country: "Greece",
@@ -45,6 +48,7 @@ const books = [
   },
   {
     id: 4,
+    summary: "The Book of Job, or simply Job, is a book found in the Ketuvim ('Writings') section of the Hebrew Bible and the first of the Poetic Books in the Old Testament of the Christian Bible.",
     title: "The Book of Job",
     author: "Anonymous",
     country: "Israel",
@@ -57,6 +61,7 @@ const books = [
   },
   {
     id: 5,
+    summary: "The Mahābhārata is one of the two major Sanskrit epics of ancient India revered in Hinduism, the other being the Ramayana. Both are considered smriti and itihasa texts.",
     title: "Mahabharata",
     author: "Vyasa",
     country: "India",
@@ -69,6 +74,7 @@ const books = [
   },
   {
     id: 6,
+    summary: "Oedipus Rex, also known by its Greek title, Oedipus Tyrannus, or Oedipus the King, is an Athenian tragedy written by Sophocles. The play is thought to have been first performed c. 429 BC, although this is highly uncertain.",
     title: "Oedipus the King",
     author: "Sophocles",
     country: "Greece",
@@ -81,6 +87,7 @@ const books = [
   },
   {
     id: 7,
+    summary: "Medea is a tragedy based on a myth, written by the ancient Greek playwright Euripides. It was first performed in 431 BC as part of a trilogy, the other plays of which have not survived. Its plot centers on the actions of Medea, a former princess of the kingdom of Colchis and the wife of Jason.",
     title: "Medea",
     author: "Euripides",
     country: "Greece",
@@ -93,6 +100,7 @@ const books = [
   },
   {
     id: 8,
+    summary: "The Ramayana, also known as the Valmiki Ramayana, as traditionally attributed to Valmiki, is a Hindu smriti epic poem from ancient India. It is one of the two important epics of Hinduism known as the Itihasas, the other being the Mahabharata, narratives of past events, interspersed with teachings on the goals of human life.",
     title: "The Ramayana",
     author: "Valmiki",
     country: "India",
@@ -105,6 +113,7 @@ const books = [
   },
   {
     id: 9,
+    summary: "The Aeneid is a Latin epic poem that tells the legendary story of Aeneas, a Trojan who fled the fall of Troy and travelled to Italy, where he became the ancestor of the Romans. Written by the Roman poet Virgil between 29 and 19 BC, the Aeneid comprises 9,896 lines in dactylic hexameter.",
     title: "The Aeneid",
     author: "Virgil",
     country: "Italy",
@@ -117,6 +126,7 @@ const books = [
   },
   {
     id: 10,
+    summary: "The Metamorphoses is a Latin narrative poem from 8 CE by the Roman poet Ovid. It is considered his magnum opus. The poem chronicles the history of the world from its creation to the deification of Julius Caesar in a mythico-historical framework comprising over 250 myths, 15 books, and 11,995 lines.",
     title: "Metamorphoses",
     author: "Ovid",
     country: "Italy",
@@ -129,6 +139,7 @@ const books = [
   },
   {
     id: 11,
+    summary: "Abhijnanashakuntalam, also known as Shakuntala, The Recognition of Shakuntala, The Sign of Shakuntala, is a Sanskrit play by the ancient Indian poet Kalidasa, dramatising the story of Shakuntala told in the epic Mahabharata and regarded as the best of Kalidasa's works. Its exact date is uncertain, but Kalidasa is often placed in the 4th century CE.",
     title: "The Recognition of Sakuntala",
     author: "Kali dasa",
     country: "India",
@@ -141,6 +152,7 @@ const books = [
   },
   {
     id: 12,
+    summary: "The Tale of Genji is a classic work of Japanese literature said to have been written by the noblewoman, poet, and lady-in-waiting Murasaki Shikibu around the peak of the Heian period, in the early 11th century. It is the first novel written by a woman to have won global recognition. In Japan, The Tale of Genji has a stature similar to that of Shakespeare in the UK.",
     title: "The Tale of Genji",
     author: "Murasaki Shikibu",
     country: "Japan",
@@ -153,6 +165,7 @@ const books = [
   },
   {
     id: 13,
+    summary: "Njáls saga, also Njála ( ), or Brennu-Njáls saga ( ), is a thirteenth-century Icelandic saga that describes events between 960 and 1020.",
     title: "Njaals Saga",
     author: "Anonymous",
     country: "Iceland",
@@ -165,6 +178,7 @@ const books = [
   },
   {
     id: 14,
+    summary: "The Divine Comedy is an Italian narrative poem by Dante Alighieri, begun c. 1308 and completed c. 1321, shortly before the author's death. It is widely considered the pre-eminent work in Italian literature and one of the greatest works of Western literature. The poem's imaginative vision of the afterlife is representative of the medieval worldview as it existed in the Western Church by the 14th century.",
     title: "The Divine Comedy",
     author: "Dante Alighieri",
     country: "Italy",
@@ -177,6 +191,7 @@ const books = [
   },
   {
     id: 15,
+    summary: "One Thousand and One Nights is a collection of Middle Eastern folktales compiled in the Arabic language during the Islamic Golden Age. It is often known in English as The Arabian Nights, from the first English-language edition, which rendered the title as The Arabian Nights' Entertainments.",
     title: "Tales of One Thousand and One Nights",
     author: "Anonymous",
     country: "Various",
@@ -189,6 +204,7 @@ const books = [
   },
   {
     id: 16,
+    summary: "The Decameron, subtitled Prince Galehaut, is a collection of short stories by the 14th-century Italian author Giovanni Boccaccio (1313–1375). It is sometimes nicknamed l'Umana commedia, as it was Boccaccio that dubbed Dante Alighieri's Comedy \"Divine\".",
     title: "Decameron",
     author: "Giovanni Boccaccio",
     country: "Italy",
@@ -201,6 +217,7 @@ const books = [
   },
   {
     id: 17,
+    summary: "The Canterbury Tales are an anthology of twenty-four short stories written in Middle English by Geoffrey Chaucer between 1387 and 1400. They are mostly in verse, and are presented as part of a fictional storytelling contest held by a group of pilgrims travelling from London to Canterbury in order to visit the shrine of Saint Thomas Becket at Canterbury Cathedral.",
     title: "Canterbury Tales",
     author: "Geoffrey Chaucer",
     country: "England",
@@ -213,6 +230,7 @@ const books = [
   },
   {
     id: 18,
+    summary: "The Masnavi is an extensive Persian masnavi written by Rumi, and one of the most influential works in the history of Sufism. It is a series of six books of poetry that together amount to around 25,000 verses or 50,000 lines.",
     title: "The Masnavi",
     author: "Rumi",
     country: "Turkey",
@@ -225,6 +243,7 @@ const books = [
   },
   {
     id: 19,
+    summary: "The Bustan is a book of poetry by the Persian poet Saadi, completed in 1257 CE and dedicated to the Salghurid Atabeg Sa'd I or Sa'd II. Bustan is considered one of Saadi's two major works.",
     title: "The Orchard",
     author: "Saadi",
     country: "Iran",
@@ -237,6 +256,7 @@ const books = [
   },
   {
     id: 20,
+    summary: "The Five Books of the Lives and Deeds of Gargantua and Pantagruel, often shortened to Gargantua and Pantagruel or the Cinq Livres, is a pentalogy of novels written in the 16th century by François Rabelais. It tells the adventures of two giants, Gargantua and his son Pantagruel.",
     title: "Gargantua and Pantagruel",
     author: "François Rabelais",
     country: "France",
@@ -249,6 +269,7 @@ const books = [
   },
   {
     id: 21,
+    summary: "The Essays of Michel de Montaigne are contained in three books and 107 chapters of varying length. They were originally written in Middle French and published in the Kingdom of France.",
     title: "Essays",
     author: "Michel de Montaigne",
     country: "France",
@@ -261,6 +282,7 @@ const books = [
   },
   {
     id: 22,
+    summary: "Don Quixote is a novel by Miguel de Cervantes, written in Early Modern Spanish and published in two parts in 1605 and 1615. It is considered a founding work of Western literature and the first modern novel. It is also one of the most-translated books in the world and one of the best-selling books in history.",
     title: "Don Quixote",
     author: "Cervantes",
     country: "Spain",
@@ -273,6 +295,7 @@ const books = [
   },
   {
     id: 23,
+    summary: "The Tragedy of Hamlet, Prince of Denmark, often shortened to Hamlet, is a tragedy written by William Shakespeare sometime between 1599 and 1601. It is Shakespeare's longest play. Set in Denmark, the play depicts Prince Hamlet and his attempts to exact revenge against his uncle, Claudius, who has murdered Hamlet's father in order to seize his throne and marry Hamlet's mother.",
     title: "Hamlet",
     author: "William Shakespeare",
     country: "England",
@@ -285,6 +308,7 @@ const books = [
   },
   {
     id: 24,
+    summary: "The Tragedy of King Lear, often shortened to King Lear, is a tragedy written by William Shakespeare in late 1605 or early 1606. Set in pre-Roman Britain, the play depicts the consequences of King Lear's love-test, in which he divides his power and land according to the praise of his daughters. The play is known for its dark tone, complex poetry, and prominent motifs concerning blindness, madness and human nature.",
     title: "King Lear",
     author: "William Shakespeare",
     country: "England",
@@ -297,6 +321,7 @@ const books = [
   },
   {
     id: 25,
+    summary: "The Tragedy of Othello, the Moor of Venice, often shortened to Othello, is a tragedy written by William Shakespeare around 1603. Set in Venice and Cyprus, the play depicts the Moorish military commander Othello as he is manipulated by his ensign, Iago, into suspecting his wife Desdemona of infidelity.",
     title: "Othello",
     author: "William Shakespeare",
     country: "England",
@@ -309,6 +334,7 @@ const books = [
   },
   {
     id: 26,
+    summary: "Gulliver's Travels, originally titled Travels into Several Remote Nations of the World. In Four Parts. By Lemuel Gulliver, First a Surgeon, and then a Captain of Several Ships, is a 1726 satirical prose novel by the Anglo-Irish writer and clergyman Jonathan Swift. It is one of the most famous classics of both English and world literature, and popularised the fictional island of Lilliput.",
     title: "Gulliver's Travels",
     author: "Jonathan Swift",
     country: "Ireland",
@@ -321,6 +347,7 @@ const books = [
   },
   {
     id: 27,
+    summary: "Jacques the Fatalist and his Master is a novel by Denis Diderot, written during the period 1765–1780. The first French edition was published posthumously in 1796, but it was known earlier in Germany, thanks to Schiller's partial translation, which appeared in 1785 and was retranslated into French in 1793, as well as Mylius's complete German version of 1792.",
     title: "Jacques the Fatalist",
     author: "Denis Diderot",
     country: "France",
@@ -333,6 +360,7 @@ const books = [
   },
   {
     id: 28,
+    summary: "The Life and Opinions of Tristram Shandy, Gentleman, often known simply as Tristram Shandy, is a humorous novel by Laurence Sterne. It was published from 1759 to 1767, in nine volumes across five instalments. The novel purports to be a memoir, but the titular Tristram is an effusive and digressive narrator who begins the story with his conception and does not reach a description of his birth until the third volume.",
     title: "The Life of Tristram Shandy",
     author: "Laurence Sterne",
     country: "Ireland",
@@ -345,6 +373,7 @@ const books = [
   },
   {
     id: 29,
+    summary: "Faust: A Tragedy is the first part of the tragic play Faust by Johann Wolfgang von Goethe, and is considered by many as the greatest work of German literature. It was first published in 1808.",
     title: "Faust",
     author: "Goethe",
     country: "Germany",
@@ -357,6 +386,7 @@ const books = [
   },
   {
     id: 30,
+    summary: "Pride and Prejudice is a novel by English author Jane Austen. Written when she was aged 20–21, it was her third novel written and became the second to see print when it was published in 1813.",
     title: "Pride and Prejudice",
     author: "Jane Austen",
     country: "England",
@@ -369,6 +399,7 @@ const books = [
   },
   {
     id: 31,
+    summary: "Hans Christian Andersen was a Danish writer. Although a prolific writer of plays, travelogues, novels, and poems, he is best remembered for his literary fairy tales.",
     title: "Fairy Tales and Stories",
     author: "H.C. Andersen",
     country: "Denmark",
@@ -381,6 +412,7 @@ const books = [
   },
   {
     id: 32,
+    summary: "Dead Souls is a novel by Nikolai Gogol, first published in 1842, and widely regarded as an exemplar of 19th-century Russian literature. The novel chronicles the travels and adventures of Pavel Ivanovich Chichikov and the people whom he encounters. These people typify the Russian middle aristocracy of the time.",
     title: "Dead Souls",
     author: "Nikolai Gogol",
     country: "Russia",
@@ -393,6 +425,7 @@ const books = [
   },
   {
     id: 33,
+    summary: "Edgar Allan Poe was an American writer, poet, editor, and literary critic who is best known for his poetry and short stories, particularly his tales involving mystery and the macabre. He is widely regarded as one of the central figures of Romanticism and Gothic fiction in the United States and of early American literature.",
     title: "The Complete Tales",
     author: "Edgar Allan Poe",
     country: "USA",
@@ -405,6 +438,7 @@ const books = [
   },
   {
     id: 34,
+    summary: "Wuthering Heights is the only novel by the English author Emily Brontë, initially published in 1847 under her pen name Ellis Bell. It concerns two extensive upland estates and their landowning families on the West Yorkshire moors, the Earnshaws and the Lintons; and their turbulent relationships with the Earnshaws' foster son, Heathcliff.",
     title: "Wuthering Heights",
     author: "Emily Brontë",
     country: "England",
@@ -417,6 +451,7 @@ const books = [
   },
   {
     id: 35,
+    summary: "Le Rouge et le Noir is a psychological novel in two volumes by Stendhal, published in 1830. It chronicles the attempts of a provincial young man to rise socially beyond his modest upbringing through a combination of talent, hard work, deception, and hypocrisy. He ultimately allows his passions to betray him.",
     title: "The Red and the Black",
     author: "Stendhal",
     country: "France",
@@ -429,6 +464,7 @@ const books = [
   },
   {
     id: 36,
+    summary: "Leaves of Grass is a poetry collection by American poet Walt Whitman. After self-publishing it in 1855, he spent most of his professional life writing, revising, and expanding the collection until his death in 1892. Either six or nine separate editions of the book were produced, depending on how one defines a new edition.",
     title: "Leaves of Grass",
     author: "Walt Whitman",
     country: "USA",
@@ -441,6 +477,7 @@ const books = [
   },
   {
     id: 37,
+    summary: "Madame Bovary: Provincial Manners, commonly known as simply Madame Bovary, is the début novel of French writer Gustave Flaubert, originally published in 1856 and 1857. The eponymous character, Emma Bovary, lives beyond her means in order to escape the ennui of provincial life.",
     title: "Madame Bovary",
     author: "Gustave Flaubert",
     country: "France",
@@ -453,6 +490,7 @@ const books = [
   },
   {
     id: 38,
+    summary: "Great Expectations is the thirteenth novel by the English author Charles Dickens and his penultimate completed novel. The novel is a bildungsroman and depicts the education of an orphan nicknamed Pip. It is Dickens' second novel, after David Copperfield, to be fully narrated in the first person.",
     title: "Great Expectations",
     author: "Charles Dickens",
     country: "England",
@@ -465,6 +503,7 @@ const books = [
   },
   {
     id: 39,
+    summary: "Crime and Punishment is a novel by the Russian author Fyodor Dostoevsky. It was first published in the literary journal The Russian Messenger in twelve monthly installments during 1866. It was later published in a single volume. It is the second of Dostoevsky's full-length novels following his return from ten years of exile in Siberia.",
     title: "Crime and Punishment",
     author: "Dostoyevsky",
     country: "Russia",
@@ -477,6 +516,7 @@ const books = [
   },
   {
     id: 40,
+    summary: "War and Peace is an epic novel by the Russian author Leo Tolstoy. Set during the Napoleonic Wars, the work comprises both a fictional narrative and chapters in which Tolstoy discusses history and philosophy. An early version was published serially beginning in 1865, after which the entire book was rewritten and published in 1869. The novel has claims to be the greatest novel written.",
     title: "War and Peace",
     author: "Leo Tolstoy",
     country: "Russia",
@@ -489,6 +529,7 @@ const books = [
   },
   {
     id: 41,
+    summary: "Middlemarch, A Study of Provincial Life is a novel by English author George Eliot, the pen name of Mary Ann Evans. It appeared in eight paper-bound instalments from December 1871 to December 1872, with a book version in four volumes published in parallel.",
     title: "Middlemarch",
     author: "George Eliot",
     country: "England",
@@ -501,6 +542,7 @@ const books = [
   },
   {
     id: 42,
+    summary: "Huckleberry \"Huck\" Finn is a fictional character created by Mark Twain who first appeared in the book The Adventures of Tom Sawyer (1876) and is the protagonist and narrator of its sequel, Adventures of Huckleberry Finn (1884). He is 12 to 13 years old during the former and a year older at the time of the latter.",
     title: "Huckleberry Finn",
     author: "Mark Twain",
     country: "USA",
@@ -513,6 +555,7 @@ const books = [
   },
   {
     id: 43,
+    summary: "The Brothers Karamazov, also translated as The Karamazov Brothers, is the sixteenth and final novel by Russian author Fyodor Dostoevsky. Dostoevsky spent nearly two years writing The Brothers Karamazov, which was published as a serial in The Russian Messenger from January 1879 to November 1880. Dostoevsky died less than four months after its publication.",
     title: "The Brothers Karamazov",
     author: "Dostoyevsky",
     country: "Russia",
@@ -525,6 +568,7 @@ const books = [
   },
   {
     id: 44,
+    summary: "The Idiot is a novel by the 19th-century Russian author Fyodor Dostoevsky. It was first published serially in the journal The Russian Messenger in 1868–1869.",
     title: "The Idiot",
     author: "Dostoyevsky",
     country: "Russia",
@@ -537,6 +581,7 @@ const books = [
   },
   {
     id: 45,
+    summary: "Demons is a novel by Fyodor Dostoevsky, first published in the journal The Russian Messenger in 1871–72. It is considered one of the four masterworks written by Dostoevsky after his return from Siberian exile, along with Crime and Punishment (1866), The Idiot (1869), and The Brothers Karamazov (1880).",
     title: "Demons",
     author: "Dostoyevsky",
     country: "Russia",
@@ -549,6 +594,7 @@ const books = [
   },
   {
     id: 46,
+    summary: "Anna Karenina is a novel, first published in book form in 1878, by the Russian author Leo Tolstoy. Often considered to be among the greatest works of world literature, Tolstoy himself called it his first true novel. It was initially released in serial installments from 1875 to 1877, all but the last part appearing in the periodical The Russian Messenger.",
     title: "Anna Karenina",
     author: "Leo Tolstoy",
     country: "Russia",
@@ -561,6 +607,7 @@ const books = [
   },
   {
     id: 47,
+    summary: "A Doll's House is a three-act play written by Norwegian playwright Henrik Ibsen. It premiered at the Royal Danish Theatre in Copenhagen, Denmark, on 21 December 1879, having been published earlier that month. The play is set in a Norwegian town c. 1879.",
     title: "A Doll's House",
     author: "Henrik Ibsen",
     country: "Norway",
@@ -573,6 +620,7 @@ const books = [
   },
   {
     id: 48,
+    summary: "The Romancero gitano is a poetry collection by Spanish writer Federico García Lorca. First published in 1928, it is composed of eighteen romances with subjects like the night, death, the sky, and the moon. All of the poems deal with the Romani people and their culture, but only as a theme used to carry the larger message that the poet was trying to convey.",
     title: "Gypsy Ballads",
     author: "García Lorca",
     country: "Spain",
@@ -585,6 +633,7 @@ const books = [
   },
   {
     id: 49,
+    summary: "The Death of Ivan Ilyich, first published in 1886, is a novella by Leo Tolstoy, considered one of the masterpieces of his late fiction, written shortly after his religious conversion of the late 1870s.",
     title: "The Death of Ivan Ilyich",
     author: "Leo Tolstoy",
     country: "Russia",
@@ -597,6 +646,7 @@ const books = [
   },
   {
     id: 50,
+    summary: "Sentimental Education: History of a Young Man is an 1869 novel by Gustave Flaubert. It focuses on the romantic life of a young man named Frédéric Moreau at the time of the French Revolution of 1848 and the founding of the Second French Empire. It describes Moreau's love for an older woman, a character based on the wife of the music publisher Maurice Schlesinger, who is portrayed in the book as Jacques Arnoux.",
     title: "A Sentimental Education",
     author: "Gustave Flaubert",
     country: "France",
@@ -609,6 +659,7 @@ const books = [
   },
   {
     id: 51,
+    summary: "Le Père Goriot is an 1835 novel by French novelist and playwright Honoré de Balzac (1799–1850), included in the Scènes de la vie privée section of his novel sequence La Comédie humaine. Set in Paris in 1819, it follows the intertwined lives of three characters: the elderly doting Goriot, a mysterious criminal-in-hiding named Vautrin and a naive law student named Eugène de Rastignac.",
     title: "Old Goriot",
     author: "Honoré de Balzac",
     country: "France",
@@ -621,6 +672,7 @@ const books = [
   },
   {
     id: 52,
+    summary: "Hunger is a novel by the Norwegian author Knut Hamsun published in 1890 by P.G. Philipsens Forlag. The novel has been hailed as the literary opening of the 20th century and an outstanding example of modern, psychology-driven literature. Hunger portrays the irrationality of the human mind in an intriguing and sometimes humorous manner.",
     title: "Hunger",
     author: "Knut Hamsun",
     country: "Norway",
@@ -633,6 +685,7 @@ const books = [
   },
   {
     id: 53,
+    summary: "\"Diary of a Madman\", also translated as \"A Madman's Diary\" is a short story by the Chinese writer Lu Xun, published in 1918. It was an early work written in vernacular Chinese in Republican-era China and became associated with the New Culture Movement. Lu Xun's stories often critiqued early 20th-century Chinese society, and \"Diary of a Madman\" established a new language and revolutionary figure of Chinese literature,…",
     title: "Diary of a Madman",
     author: "Lu Xun",
     country: "China",
@@ -645,6 +698,7 @@ const books = [
   },
   {
     id: 54,
+    summary: "Anton Pavlovich Chekhov was a Russian playwright and short story writer. Widely considered one of the greatest writers of all time, his career as a playwright produced four classics, and his best short stories are held in high esteem by writers and critics. Along with Henrik Ibsen and August Strindberg, Chekhov is often referred to as one of the three seminal figures in the birth of early modernism in the theatre.",
     title: "Selected Stories",
     author: "Anton Chekhov",
     country: "Russia",
@@ -657,6 +711,7 @@ const books = [
   },
   {
     id: 55,
+    summary: "Buddenbrooks or The Buddenbrooks is a 1901 novel by Thomas Mann, chronicling the decline of a wealthy north German merchant family over the course of four generations, incidentally portraying the manner of life and mores of the Hanseatic bourgeoisie in the years from 1835 to 1877. Mann drew deeply from the history of his own family, the Mann family of Lübeck, and their milieu.",
     title: "Buddenbrooks",
     author: "Thomas Mann",
     country: "Germany",
@@ -669,6 +724,7 @@ const books = [
   },
   {
     id: 56,
+    summary: "The Metamorphosis, also translated as The Transformation, is a novella by Franz Kafka published in 1915. One of Kafka's best-known works, The Metamorphosis tells the story of salesman Gregor Samsa, who wakes to find himself inexplicably transformed into a huge insect and struggles to adjust to this condition, as does his family.",
     title: "Metamorphosis and Other Stories",
     author: "Franz Kafka",
     country: "Bohemia",
@@ -681,6 +737,7 @@ const books = [
   },
   {
     id: 57,
+    summary: "The Trial is a German-language novel written by Czech writer Franz Kafka in 1914 and 1915 and published posthumously on 26 April 1925. One of his best-known works, it tells the story of Josef K., a bank official arrested and prosecuted by an inaccessible authority, with the nature of the crime of which he is accused revealed neither to him nor to the reader. The novel shows K.",
     title: "The Trial",
     author: "Franz Kafka",
     country: "Bohemia",
@@ -693,6 +750,7 @@ const books = [
   },
   {
     id: 58,
+    summary: "The Castle is the last novel by Franz Kafka, first published in 1926. In it, a protagonist known only as \"K.\" arrives in a village and struggles to gain access to the mysterious authorities who govern it from a castle supposedly owned by Graf Westwest.",
     title: "The Castle",
     author: "Franz Kafka",
     country: "Bohemia",
@@ -705,6 +763,7 @@ const books = [
   },
   {
     id: 59,
+    summary: "Sons and Lovers is a 1913 novel by the English writer D. H. Lawrence. It traces emotional conflicts through the protagonist, Paul Morel, and his suffocating relationships with a demanding mother and two very different lovers, which exert complex influences on the development of his manhood. The novel was originally published by Gerald Duckworth and Company Ltd., London, and Mitchell Kennerley Publishers, New York.",
     title: "Sons and Lovers",
     author: "D.H. Lawrence",
     country: "England",
@@ -717,6 +776,7 @@ const books = [
   },
   {
     id: 60,
+    summary: "Zeno's Conscience is a novel by Italian writer Italo Svevo. The main character is Zeno Cosini, and the book is the fictional character's memoirs that he keeps because his psychoanalyst recommended to do so in order to overcome his illness. He writes about his father, his business, his wife, and his tobacco habit. The original English translation was published under the title Confessions of Zeno.",
     title: "Zeno's Conscience",
     author: "Italo Svevo",
     country: "Italy",
@@ -729,6 +789,7 @@ const books = [
   },
   {
     id: 61,
+    summary: "Canti is a collection of poems by Giacomo Leopardi written in 1835. The Canti is generally considered one of the most significant works of Italian poetry.",
     title: "Canti",
     author: "Giacomo Leopardi",
     country: "Italy",
@@ -741,6 +802,7 @@ const books = [
   },
   {
     id: 62,
+    summary: "Mrs Dalloway is a novel by Virginia Woolf published on 14 May 1925. It details a day in the life of Clarissa Dalloway, a wealthy woman in post-First World War London.",
     title: "Mrs Dalloway",
     author: "Virginia Woolf",
     country: "England",
@@ -753,6 +815,7 @@ const books = [
   },
   {
     id: 63,
+    summary: "To the Lighthouse is a 1927 novel by Virginia Woolf. The novel centres on the Ramsay family and their visits to the Isle of Skye in Scotland between 1910 and 1920.",
     title: "To the Lighthouse",
     author: "Virginia Woolf",
     country: "England",
@@ -765,6 +828,7 @@ const books = [
   },
   {
     id: 64,
+    summary: "The Magic Mountain is a German novel written by Thomas Mann, published in November 1924 about a young and aspiring engineer Hans Castorp. While staying in the secluded world of a high-altitude sanatorium in the years leading up to 1914, Hans encounters otherworldly figures who confront him with politics, philosophy, but also romance, illness, and death.",
     title: "The Magic Mountain",
     author: "Thomas Mann",
     country: "Germany",
@@ -777,6 +841,7 @@ const books = [
   },
   {
     id: 65,
+    summary: "In Search of Lost Time, first translated into English as Remembrance of Things Past, and sometimes referred to in French as La Recherche, is a novel in seven volumes by French author Marcel Proust. This early twentieth-century work is his most prominent, known for both its length and its theme of involuntary memory.",
     title: "In Search of Lost Time",
     author: "Marcel Proust",
     country: "France",
@@ -789,6 +854,7 @@ const books = [
   },
   {
     id: 66,
+    summary: "The Sound and the Fury is a novel by the American author William Faulkner, published in 1929. Faulkner's fourth novel, it is the second to be set in Yoknapatawpha County and the first featuring the Compson family, both of which would reappear in his later fiction.",
     title: "The Sound and the Fury",
     author: "William Faulkner",
     country: "USA",
@@ -801,6 +867,7 @@ const books = [
   },
   {
     id: 67,
+    summary: "Absalom, Absalom! is a Southern Gothic novel by the American author William Faulkner, first published in 1936. Taking place before, during, and after the American Civil War, it focuses on the rise and fall of Thomas Sutpen, a plantation owner in the American South, as told by several unreliable narrators many years later.",
     title: "Absalom, Absalom!",
     author: "William Faulkner",
     country: "USA",
@@ -813,6 +880,7 @@ const books = [
   },
   {
     id: 68,
+    summary: "Berlin Alexanderplatz is a 1929 novel by Alfred Döblin. It is considered one of the most important and innovative works of the Weimar Republic. In a 2002 poll of 100 noted writers, the book was named among the top 100 books of all time.",
     title: "Berlin Alexanderplatz",
     author: "Alfred Döblin",
     country: "Germany",
@@ -825,6 +893,7 @@ const books = [
   },
   {
     id: 69,
+    summary: "The Man Without Qualities is an unfinished modernist novel in three volumes and various drafts by the Austrian writer Robert Musil.",
     title: "The Man Without Qualities",
     author: "Robert Musil",
     country: "Austria",
@@ -837,6 +906,7 @@ const books = [
   },
   {
     id: 70,
+    summary: "Moby-Dick; or, The Whale is an 1851 epic novel by American writer Herman Melville. The book centers on the sailor Ishmael's narrative of the maniacal quest of Ahab, captain of the whaling ship Pequod, for vengeance against Moby Dick, the giant white sperm whale that bit off his leg on the ship's previous voyage.",
     title: "Moby-Dick",
     author: "Herman Melville",
     country: "USA",
@@ -849,6 +919,7 @@ const books = [
   },
   {
     id: 71,
+    summary: "The Old Man and the Sea is a 1952 novella by the American author Ernest Hemingway. Written between December 1950 and February 1951, it was the last major fictional work Hemingway published during his lifetime. It tells the story of Santiago, an aging fisherman, and his long struggle to catch a giant marlin.",
     title: "The Old Man and the Sea",
     author: "Ernest Hemingway",
     country: "USA",
@@ -861,6 +932,7 @@ const books = [
   },
   {
     id: 72,
+    summary: "Journey to the End of the Night is the first novel by Louis-Ferdinand Céline. This semi-autobiographical work follows the adventures of Ferdinand Bardamu in World War I, colonial Africa, the United States and the poor suburbs of Paris where he works as a doctor.",
     title: "Journey to the End of the Night",
     author: "Louis-Ferdinand Céline",
     country: "France",
@@ -873,6 +945,7 @@ const books = [
   },
   {
     id: 73,
+    summary: "Invisible Man is Ralph Ellison's first novel, and the only one published during his lifetime. It was first published by the British magazine Horizon in 1947, and addresses many of the social and intellectual issues faced by African Americans in the early 20th century, including black nationalism, the relationship between black identity and Marxism, and the reformist racial policies of Booker T.",
     title: "Invisible Man",
     author: "Ralph Ellison",
     country: "USA",
@@ -885,6 +958,7 @@ const books = [
   },
   {
     id: 74,
+    summary: "The Outsider is a play by the British writer Dorothy Brandon. It portrays the struggle of an unorthodox medical practitioner to gain acceptance by the medical establishment. It was subsequently revised to show the unconventional triumphing over the conventional, whereas the play had originally had the opposite ending.",
     title: "The Outsider",
     author: "Albert Camus",
     country: "Algeria/France",
@@ -897,6 +971,7 @@ const books = [
   },
   {
     id: 75,
+    summary: "Independent People: An Epic is a novel by Nobel laureate Halldór Laxness, originally published in two volumes in 1934 and 1935. It deals with the struggle of poor Icelandic farmers in the early 20th century, only freed from debt bondage in the last generation, and surviving on isolated crofts in an inhospitable landscape.",
     title: "Independent People",
     author: "Halldór Laxness",
     country: "Iceland",
@@ -909,6 +984,7 @@ const books = [
   },
   {
     id: 76,
+    summary: "Lolita is a 1955 novel written by the Russian and American novelist Vladimir Nabokov. The protagonist and narrator is a French literature professor who moves to New England and writes under the pseudonym Humbert Humbert. He details his obsession with and victimization of a 12-year-old girl, Dolores Haze, whom he describes as a \"nymphet\".",
     title: "Lolita",
     author: "Vladimir Nabokov",
     country: "Russia/USA",
@@ -921,6 +997,7 @@ const books = [
   },
   {
     id: 77,
+    summary: "The Sound of the Mountain is a novel by Japanese writer Yasunari Kawabata, serialized between 1949 and 1954, and first published as a standalone book in 1954 by Chikuma Shobō, Tokyo.",
     title: "The Sound of the Mountain",
     author: "Yasunari Kawabata",
     country: "Japan",
@@ -933,6 +1010,7 @@ const books = [
   },
   {
     id: 78,
+    summary: "Ulysses is a modernist novel by the Irish writer James Joyce. Partially serialised in the American journal The Little Review from March 1918 to December 1920, the entire work was published in Paris by Sylvia Beach on 2 February 1922, Joyce's fortieth birthday.",
     title: "Ulysses",
     author: "James Joyce",
     country: "Ireland",
@@ -945,6 +1023,7 @@ const books = [
   },
   {
     id: 79,
+    summary: "Samuel Barclay Beckett was an Irish playwright, novelist, and poet. Written in both English and French, his literary and theatrical works feature bleak, impersonal, and tragicomic episodes of life, coupled with black comedy and literary nonsense. Beckett is widely regarded as one of the most influential and important writers of the 20th century, credited with transforming modern theatre.",
     title: "Molloy / Malone Dies / The Unnamable",
     author: "Samuel Beckett",
     country: "Ireland",
@@ -957,6 +1036,7 @@ const books = [
   },
   {
     id: 80,
+    summary: "Pippi Longstocking is the fictional main character in a series of children's books by Swedish author Astrid Lindgren. Pippi was named by Lindgren's daughter Karin, who asked her mother for a get-well story when she was off school.",
     title: "Pippi Longstocking",
     author: "Astrid Lindgren",
     country: "Sweden",
@@ -969,6 +1049,7 @@ const books = [
   },
   {
     id: 81,
+    summary: "The Book of Disquiet is a work by the Portuguese author Fernando Pessoa (1888–1935). Published posthumously, The Book of Disquiet is a fragmentary lifetime project, left unedited by the author, who introduced it as a \"factless autobiography\".",
     title: "The Book of Disquiet",
     author: "Fernando Pessoa",
     country: "Portugal",
@@ -981,6 +1062,7 @@ const books = [
   },
   {
     id: 82,
+    summary: "Beloved is a 1987 novel by American novelist Toni Morrison. Set in the period after the American Civil War, the novel tells the story of formerly enslaved people whose Cincinnati home is haunted by a malevolent spirit. Sethe, a formerly enslaved mother of four, grapples with her traumatic past.",
     title: "Beloved",
     author: "Toni Morrison",
     country: "USA",
@@ -993,6 +1075,7 @@ const books = [
   },
   {
     id: 83,
+    summary: "One Hundred Years of Solitude is a 1967 novel by Colombian author Gabriel García Márquez that tells the multi-generational story of the Buendía family, whose patriarch, José Arcadio Buendía, founded the fictitious town of Macondo. The novel is often cited as one of the supreme achievements in world literature.",
     title: "One Hundred Years of Solitude",
     author: "Gabriel García Márquez",
     country: "Colombia",
@@ -1005,6 +1088,7 @@ const books = [
   },
   {
     id: 84,
+    summary: "Love in the Time of Cholera is a novel written in Spanish by Colombian Nobel Prize–winning author Gabriel García Márquez and published in 1985. Edith Grossman's English translation was published by Alfred A. Knopf in 1988.",
     title: "Love in the Time of Cholera",
     author: "Gabriel García Márquez",
     country: "Colombia",
@@ -1017,6 +1101,7 @@ const books = [
   },
   {
     id: 85,
+    summary: "Jorge Francisco Isidoro Luis Borges was an Argentine short-story writer, essayist, poet and translator regarded as a key figure in Spanish-language and international literature. His best-known works, Ficciones (transl. Fictions) and El Aleph, published in the 1940s, are collections of short stories exploring motifs such as dreams, labyrinths, chance, infinity, archives, mirrors, fictional writers, and mythology.",
     title: "Collected Fictions",
     author: "Jorge Luis Borges",
     country: "Argentina",
@@ -1029,6 +1114,7 @@ const books = [
   },
   {
     id: 86,
+    summary: "The Golden Notebook is a 1962 novel by the British writer Doris Lessing. Like her two books that followed, it enters the realm of what Margaret Drabble in The Oxford Companion to English Literature called Lessing's \"inner space fiction\"; her work that explores mental and societal breakdown.",
     title: "The Golden Notebook",
     author: "Doris Lessing",
     country: "England",
@@ -1041,6 +1127,7 @@ const books = [
   },
   {
     id: 87,
+    summary: "The Tin Drum is a 1959 novel by Günter Grass, the first book of his Danzig Trilogy. It was adapted into a 1979 film, which won both the 1979 Palme d'Or and the Academy Award for Best Foreign Language Film in 1980.",
     title: "The Tin Drum",
     author: "Günter Grass",
     country: "Germany",
@@ -1053,6 +1140,7 @@ const books = [
   },
   {
     id: 88,
+    summary: "Things Fall Apart is the 1958 debut novel by Nigerian author Chinua Achebe. Set in Colonial Nigeria, it portrays the story of Okonkwo, a traditional and influential leader of the fictional Igbo clan of Umuofia, who opposes colonialism and early Christianity. Written when Achebe was working at the Nigerian Broadcasting Corporation, it was first published in London by Heinemann on 17 June 1958.",
     title: "Things Fall Apart",
     author: "Chinua Achebe",
     country: "Nigeria",
@@ -1065,6 +1153,7 @@ const books = [
   },
   {
     id: 89,
+    summary: "Season of Migration to the North is a novel by the Sudanese writer Tayeb Salih, first published serially in the Beirut journal Hiwâr in 1966. It became Salih's best known work and is considered a classic of postcolonial literature. The main concern of the novel is the impact of British colonialism and European modernity on rural African societies in general and Sudanese culture and identity in particular.",
     title: "Season of Migration to the North",
     author: "Tayeb Salih",
     country: "Sudan",
@@ -1077,6 +1166,7 @@ const books = [
   },
   {
     id: 90,
+    summary: "Children of Gebelawi is a novel by the Egyptian writer and Nobel laureate Naguib Mahfouz. Its Egyptian dialectal transliteration is Awlad Haretna. An alternative English title is Children of the Alley.",
     title: "Children of Gebelawi",
     author: "Naguib Mahfouz",
     country: "Egypt",
@@ -1089,6 +1179,7 @@ const books = [
   },
   {
     id: 91,
+    summary: "Midnight's Children is the second novel by Indian-British writer Salman Rushdie, published in 1981 by Jonathan Cape with cover design by Bill Botten, about India's transition from British colonial rule to independence and partition. It is a postcolonial, postmodern and magical realist story told by its chief protagonist, Saleem Sinai, set in the context of historical events.",
     title: "Midnight's Children",
     author: "Salman Rushdie",
     country: "India/Britain",
@@ -1101,6 +1192,7 @@ const books = [
   },
   {
     id: 92,
+    summary: "Blindness is a 1995 novel by Portuguese author José Saramago. It centers on an unexplained mass epidemic of blindness afflicting nearly everyone in a nonspecific city, and follows multiple unnamed characters as they navigate the social breakdown that swiftly follows. The novel was translated into English by Giovanni Pontiero in 1997.",
     title: "Blindness",
     author: "José Saramago",
     country: "Portugal",
@@ -1113,6 +1205,7 @@ const books = [
   },
   {
     id: 93,
+    summary: "Pedro Páramo is a novel by Mexican writer Juan Rulfo, first published in 1955. The novel tells the story of Juan Preciado, a man who promises his mother on her deathbed to meet Preciado's father for the first time in the town of Comala only to come across a literal ghost town, that is, populated by spectral characters.",
     title: "Pedro Páramo",
     author: "Juan Rulfo",
     country: "Mexico",
@@ -1125,6 +1218,7 @@ const books = [
   },
   {
     id: 94,
+    summary: "The Devil to Pay in the Backlands is a novel published in 1956 by the Brazilian writer João Guimarães Rosa.",
     title: "The Devil to Pay in the Backlands",
     author: "João Guimarães Rosa",
     country: "Brazil",
@@ -1137,6 +1231,7 @@ const books = [
   },
   {
     id: 95,
+    summary: "Paul Celan was a German-speaking Romanian poet, Holocaust survivor, and literary translator. He adopted his pen name following the war and resided in France from 1949, becoming a naturalized French citizen in 1955.",
     title: "Poems",
     author: "Paul Celan",
     country: "Romania/France",
@@ -1149,6 +1244,7 @@ const books = [
   },
   {
     id: 96,
+    summary: "History: A Novel is a novel by Italian author Elsa Morante. It is included in the list of the hundred best books ever, compiled in 2002 by the Norwegian book Club. Published in 1974, it narrates the story of a partly Jewish woman, Ida Ramundo, and her two sons Antonio and Giuseppe (\"Useppe\") in Rome, during and immediately after the Second World War.",
     title: "History",
     author: "Elsa Morante",
     country: "Italy",
@@ -1161,6 +1257,7 @@ const books = [
   },
   {
     id: 97,
+    summary: "Zorba the Greek is a novel written by Nikos Kazantzakis, first published in 1946. It is the tale of a young Greek intellectual who ventures to escape his bookish life with the aid of the boisterous and mysterious Alexis Zorba. The novel was adapted into the successful 1964 film of the same name directed by Michael Cacoyannis, as well as a stage musical and a BBC radio play.",
     title: "Zorba the Greek",
     author: "Nikos Kazantzakis",
     country: "Greece",
@@ -1173,6 +1270,7 @@ const books = [
   },
   {
     id: 98,
+    summary: "Memoirs of Hadrian is a French-language novel by the Belgian-born French writer Marguerite Yourcenar about the life and death of the Roman Emperor Hadrian. First published in France in 1951, the book was a critical and commercial success. It was translated into English by Grace Frick and published as Hadrian's Memoirs in 1954 by Farrar, Straus and Young and the following year in the UK as Memoirs of Hadrian.",
     title: "Memoirs of Hadrian",
     author: "Marguerite Yourcenar",
     country: "France",
@@ -1185,6 +1283,7 @@ const books = [
   },
   {
     id: 99,
+    summary: "Nineteen Eighty-Four is a dystopian and speculative fiction novel by English writer George Orwell. It was published on 8 June 1949 by Secker & Warburg as Orwell's ninth and final completed book. Thematically, it centres on totalitarianism, mass surveillance and repressive regimentation of people and behaviours.",
     title: "1984",
     author: "George Orwell",
     country: "England",
@@ -1197,6 +1296,7 @@ const books = [
   },
   {
     id: 100,
+    summary: "Nostromo: A Tale of the Seaboard (1904) is a novel by Joseph Conrad, set in the fictitious South American republic of \"Costaguana\". First serialized in monthly installments of T.P.'s Weekly, in 1998 it was ranked 47th on the Modern Library 100 Best Novels in 20th-century English. It is often considered Conrad's best work of long fiction, and F.",
     title: "Nostromo",
     author: "Joseph Conrad",
     country: "England",
