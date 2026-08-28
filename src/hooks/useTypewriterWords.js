@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const WORD_INTERVAL_MS = 190;
+const WORD_INTERVAL_MS = 160;
 
 // Reveals `text` one word at a time, restarting whenever `text` changes.
 // Returns the array of words revealed so far.
