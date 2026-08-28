@@ -15,3 +15,11 @@
   letter-spacing: 0.04em;
   color: #f7f4ee;
 }
+
+.subtitle {
+  margin: 0.35rem 0 0;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-style: italic;
+  font-size: 0.75rem;
+  color: #999;
+}

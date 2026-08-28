@@ -5,6 +5,14 @@
   background: #000;
 }
 
+.dialog {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  height: 100%;
+  margin: 0 auto;
+}
+
 .backdrop {
   position: absolute;
   inset: 0;
@@ -80,10 +88,10 @@
 }
 
 .close {
-  position: fixed;
+  position: absolute;
   top: 1rem;
   right: 1rem;
-  z-index: 310;
+  z-index: 10;
   width: 34px;
   height: 34px;
   border-radius: 50%;
@@ -109,7 +117,7 @@
 }
 
 .meta {
-  font-size: 0.65rem;
+  font-size: 0.78rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #bbb;
@@ -118,20 +126,20 @@
 
 .title {
   margin: 0 0 0.25rem;
-  font-size: 1.4rem;
+  font-size: 1.68rem;
   font-weight: normal;
   line-height: 1.25;
 }
 
 .author {
-  font-size: 0.85rem;
+  font-size: 1.02rem;
   font-style: italic;
   color: #ccc;
   margin-bottom: 1rem;
 }
 
 .summary {
-  font-size: 0.85rem;
+  font-size: 1.02rem;
   line-height: 1.6;
   color: #e5e1d8;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -149,14 +157,14 @@
   background: #f7f4ee;
   color: #1a1a1a;
   font-family: "Georgia", serif;
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   letter-spacing: 0.05em;
   text-decoration: none;
 }
 
 .disclosure {
   font-style: italic;
-  font-size: 0.65rem;
+  font-size: 0.78rem;
   color: #888;
   margin: 0;
 }
