@@ -1,9 +1,13 @@
+import { Fragment } from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { eraLabel } from "../utils/helper";
+import { useTypewriterWords } from "../hooks/useTypewriterWords";
 import styles from "./MobileModal.module.css";
 
 export default function MobileModal({ book, onClose }) {
+  const revealedWords = useTypewriterWords(book.summary);
+
   return (
     <div className={styles.overlay} onClick={onClose}>
       <div className={styles.dialog}>
@@ -35,14 +39,44 @@ export default function MobileModal({ book, onClose }) {
         </button>
 
         <div className={styles.panel} onClick={(e) => e.stopPropagation()}>
-          <div className={styles.meta}>
-            {book.region} · {book.language} · {eraLabel(book.year)}
-          </div>
-          <h2 className={styles.title}>{book.title}</h2>
+          <h2 className={styles.title}>
+            {book.wikiUrl ? (
+              <a
+                href={book.wikiUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.link}
+              >
+                {book.title}
+              </a>
+            ) : (
+              book.title
+            )}
+          </h2>
           <div className={styles.author}>
-            {book.author} · {book.country}
+            {book.authorWikiUrl ? (
+              <a
+                href={book.authorWikiUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.link}
+              >
+                {book.author}
+              </a>
+            ) : (
+              book.author
+            )}{" "}
+            · {book.country} · {eraLabel(book.year)}
           </div>
-          {book.summary && <p className={styles.summary}>{book.summary}</p>}
+          {book.summary && (
+            <p className={styles.summary}>
+              {revealedWords.map((word, i) => (
+                <Fragment key={i}>
+                  <span className={styles.word}>{word}</span>{" "}
+                </Fragment>
+              ))}
+            </p>
+          )}
           <div className={styles.actions}>
             <a
               href={book.link}
@@ -53,10 +87,6 @@ export default function MobileModal({ book, onClose }) {
               Buy this book →
             </a>
           </div>
-          <p className={styles.disclosure}>
-            please note: I will receive a small affiliate fee for the
-            forwarding of this book.
-          </p>
         </div>
       </div>
     </div>

@@ -38,7 +38,7 @@
   font-weight: bold;
   font-size: 0.95rem;
   line-height: 1.6;
-  overflow-wrap: break-word;
+  overflow-wrap: normal;
   word-break: normal;
   hyphens: none;
   display: -webkit-box;
@@ -55,7 +55,7 @@
   color: #b3ad9f;
   line-height: 1.65;
   margin-top: 0.15rem;
-  overflow-wrap: break-word;
+  overflow-wrap: normal;
   word-break: normal;
   hyphens: none;
   display: -webkit-box;

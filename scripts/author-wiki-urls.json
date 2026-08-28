@@ -1,0 +1,326 @@
+{
+  "Homer": {
+    "wikiTitle": "Homer",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Homer"
+  },
+  "Vyasa": {
+    "wikiTitle": "Vyasa",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Vyasa"
+  },
+  "Sophocles": {
+    "wikiTitle": "Sophocles",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Sophocles"
+  },
+  "Euripides": {
+    "wikiTitle": "Euripides",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Euripides"
+  },
+  "Valmiki": {
+    "wikiTitle": "Valmiki",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Valmiki"
+  },
+  "Virgil": {
+    "wikiTitle": "Virgil",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Virgil"
+  },
+  "Ovid": {
+    "wikiTitle": "Ovid",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Ovid"
+  },
+  "Kali dasa": {
+    "wikiTitle": "Kalidasa",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Kalidasa"
+  },
+  "Murasaki Shikibu": {
+    "wikiTitle": "Murasaki Shikibu",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Murasaki_Shikibu"
+  },
+  "Dante Alighieri": {
+    "wikiTitle": "Dante Alighieri",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Dante_Alighieri"
+  },
+  "Giovanni Boccaccio": {
+    "wikiTitle": "Giovanni Boccaccio",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Giovanni_Boccaccio"
+  },
+  "Geoffrey Chaucer": {
+    "wikiTitle": "Geoffrey Chaucer",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Geoffrey_Chaucer"
+  },
+  "Rumi": {
+    "wikiTitle": "Rumi",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Rumi"
+  },
+  "Saadi": {
+    "wikiTitle": "Saadi Shirazi",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Saadi_Shirazi"
+  },
+  "François Rabelais": {
+    "wikiTitle": "François Rabelais",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Rabelais"
+  },
+  "Michel de Montaigne": {
+    "wikiTitle": "Michel de Montaigne",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Michel_de_Montaigne"
+  },
+  "Cervantes": {
+    "wikiTitle": "Miguel de Cervantes",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Miguel_de_Cervantes"
+  },
+  "William Shakespeare": {
+    "wikiTitle": "William Shakespeare",
+    "wikiUrl": "https://en.wikipedia.org/wiki/William_Shakespeare"
+  },
+  "Jonathan Swift": {
+    "wikiTitle": "Jonathan Swift",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Jonathan_Swift"
+  },
+  "Denis Diderot": {
+    "wikiTitle": "Denis Diderot",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Denis_Diderot"
+  },
+  "Laurence Sterne": {
+    "wikiTitle": "Laurence Sterne",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Laurence_Sterne"
+  },
+  "Goethe": {
+    "wikiTitle": "Johann Wolfgang von Goethe",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe"
+  },
+  "Jane Austen": {
+    "wikiTitle": "Jane Austen",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Jane_Austen"
+  },
+  "H.C. Andersen": {
+    "wikiTitle": "Hans Christian Andersen",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Hans_Christian_Andersen"
+  },
+  "Nikolai Gogol": {
+    "wikiTitle": "Nikolai Gogol",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Nikolai_Gogol"
+  },
+  "Edgar Allan Poe": {
+    "wikiTitle": "Edgar Allan Poe",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Edgar_Allan_Poe"
+  },
+  "Emily Brontë": {
+    "wikiTitle": "Emily Brontë",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Emily_Bront%C3%AB"
+  },
+  "Stendhal": {
+    "wikiTitle": "Stendhal",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Stendhal"
+  },
+  "Walt Whitman": {
+    "wikiTitle": "Walt Whitman",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Walt_Whitman"
+  },
+  "Gustave Flaubert": {
+    "wikiTitle": "Gustave Flaubert",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Gustave_Flaubert"
+  },
+  "Charles Dickens": {
+    "wikiTitle": "Charles Dickens",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Charles_Dickens"
+  },
+  "Dostoyevsky": {
+    "wikiTitle": "Fyodor Dostoevsky",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky"
+  },
+  "Leo Tolstoy": {
+    "wikiTitle": "Leo Tolstoy",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Leo_Tolstoy"
+  },
+  "George Eliot": {
+    "wikiTitle": "George Eliot",
+    "wikiUrl": "https://en.wikipedia.org/wiki/George_Eliot"
+  },
+  "Mark Twain": {
+    "wikiTitle": "Mark Twain",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Mark_Twain"
+  },
+  "Henrik Ibsen": {
+    "wikiTitle": "Henrik Ibsen",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Henrik_Ibsen"
+  },
+  "García Lorca": {
+    "wikiTitle": "Federico García Lorca",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Federico_Garc%C3%ADa_Lorca"
+  },
+  "Honoré de Balzac": {
+    "wikiTitle": "Honoré de Balzac",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Honor%C3%A9_de_Balzac"
+  },
+  "Knut Hamsun": {
+    "wikiTitle": "Knut Hamsun",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Knut_Hamsun"
+  },
+  "Lu Xun": {
+    "wikiTitle": "Lu Xun",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Lu_Xun"
+  },
+  "Anton Chekhov": {
+    "wikiTitle": "Anton Chekhov",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Anton_Chekhov"
+  },
+  "Thomas Mann": {
+    "wikiTitle": "Thomas Mann",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Thomas_Mann"
+  },
+  "Franz Kafka": {
+    "wikiTitle": "Franz Kafka",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Franz_Kafka"
+  },
+  "D.H. Lawrence": {
+    "wikiTitle": "D. H. Lawrence",
+    "wikiUrl": "https://en.wikipedia.org/wiki/D._H._Lawrence"
+  },
+  "Italo Svevo": {
+    "wikiTitle": "Italo Svevo",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Italo_Svevo"
+  },
+  "Giacomo Leopardi": {
+    "wikiTitle": "Giacomo Leopardi",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Giacomo_Leopardi"
+  },
+  "Virginia Woolf": {
+    "wikiTitle": "Virginia Woolf",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Virginia_Woolf"
+  },
+  "Marcel Proust": {
+    "wikiTitle": "Marcel Proust",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Marcel_Proust"
+  },
+  "William Faulkner": {
+    "wikiTitle": "William Faulkner",
+    "wikiUrl": "https://en.wikipedia.org/wiki/William_Faulkner"
+  },
+  "Alfred Döblin": {
+    "wikiTitle": "Alfred Döblin",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Alfred_D%C3%B6blin"
+  },
+  "Robert Musil": {
+    "wikiTitle": "Robert Musil",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Robert_Musil"
+  },
+  "Herman Melville": {
+    "wikiTitle": "Herman Melville",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Herman_Melville"
+  },
+  "Ernest Hemingway": {
+    "wikiTitle": "Ernest Hemingway",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Ernest_Hemingway"
+  },
+  "Louis-Ferdinand Céline": {
+    "wikiTitle": "Louis-Ferdinand Céline",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Louis-Ferdinand_C%C3%A9line"
+  },
+  "Ralph Ellison": {
+    "wikiTitle": "Ralph Ellison",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Ralph_Ellison"
+  },
+  "Albert Camus": {
+    "wikiTitle": "Albert Camus",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Albert_Camus"
+  },
+  "Halldór Laxness": {
+    "wikiTitle": "Halldór Laxness",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Halld%C3%B3r_Laxness"
+  },
+  "Vladimir Nabokov": {
+    "wikiTitle": "Vladimir Nabokov",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Vladimir_Nabokov"
+  },
+  "Yasunari Kawabata": {
+    "wikiTitle": "Yasunari Kawabata",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Yasunari_Kawabata"
+  },
+  "James Joyce": {
+    "wikiTitle": "James Joyce",
+    "wikiUrl": "https://en.wikipedia.org/wiki/James_Joyce"
+  },
+  "Samuel Beckett": {
+    "wikiTitle": "Samuel Beckett",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Samuel_Beckett"
+  },
+  "Astrid Lindgren": {
+    "wikiTitle": "Astrid Lindgren",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Astrid_Lindgren"
+  },
+  "Fernando Pessoa": {
+    "wikiTitle": "Fernando Pessoa",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Fernando_Pessoa"
+  },
+  "Toni Morrison": {
+    "wikiTitle": "Toni Morrison",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Toni_Morrison"
+  },
+  "Gabriel García Márquez": {
+    "wikiTitle": "Gabriel García Márquez",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez"
+  },
+  "Jorge Luis Borges": {
+    "wikiTitle": "Jorge Luis Borges",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Jorge_Luis_Borges"
+  },
+  "Doris Lessing": {
+    "wikiTitle": "Doris Lessing",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Doris_Lessing"
+  },
+  "Günter Grass": {
+    "wikiTitle": "Günter Grass",
+    "wikiUrl": "https://en.wikipedia.org/wiki/G%C3%BCnter_Grass"
+  },
+  "Chinua Achebe": {
+    "wikiTitle": "Chinua Achebe",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Chinua_Achebe"
+  },
+  "Tayeb Salih": {
+    "wikiTitle": "Tayeb Salih",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Tayeb_Salih"
+  },
+  "Naguib Mahfouz": {
+    "wikiTitle": "Naguib Mahfouz",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Naguib_Mahfouz"
+  },
+  "Salman Rushdie": {
+    "wikiTitle": "Salman Rushdie",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Salman_Rushdie"
+  },
+  "José Saramago": {
+    "wikiTitle": "José Saramago",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Jos%C3%A9_Saramago"
+  },
+  "Juan Rulfo": {
+    "wikiTitle": "Juan Rulfo",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Juan_Rulfo"
+  },
+  "João Guimarães Rosa": {
+    "wikiTitle": "João Guimarães Rosa",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Guimar%C3%A3es_Rosa"
+  },
+  "Paul Celan": {
+    "wikiTitle": "Paul Celan",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Paul_Celan"
+  },
+  "Elsa Morante": {
+    "wikiTitle": "Elsa Morante",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Elsa_Morante"
+  },
+  "Nikos Kazantzakis": {
+    "wikiTitle": "Nikos Kazantzakis",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Nikos_Kazantzakis"
+  },
+  "Marguerite Yourcenar": {
+    "wikiTitle": "Marguerite Yourcenar",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Marguerite_Yourcenar"
+  },
+  "George Orwell": {
+    "wikiTitle": "George Orwell",
+    "wikiUrl": "https://en.wikipedia.org/wiki/George_Orwell"
+  },
+  "Joseph Conrad": {
+    "wikiTitle": "Joseph Conrad",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Joseph_Conrad"
+  }
+}
