@@ -3,10 +3,12 @@ import { MapContainer, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { eraLabel } from "../utils/helper";
 import { useTypewriterWords } from "../hooks/useTypewriterWords";
+import { useBookCover } from "../hooks/useBookCover";
 import styles from "./MobileModal.module.css";
 
 export default function MobileModal({ book, onClose }) {
   const revealedWords = useTypewriterWords(book.summary);
+  const cover = useBookCover(book);
 
   return (
     <div className={styles.overlay} onClick={onClose}>
@@ -39,6 +41,15 @@ export default function MobileModal({ book, onClose }) {
         </button>
 
         <div className={styles.panel} onClick={(e) => e.stopPropagation()}>
+          {cover.src && (
+            <img
+              src={cover.src}
+              alt={`${book.title} cover`}
+              className={styles.cover}
+              onError={cover.onError}
+              onLoad={cover.onLoad}
+            />
+          )}
           <h2 className={styles.title}>
             {book.wikiUrl ? (
               <a
@@ -84,7 +95,7 @@ export default function MobileModal({ book, onClose }) {
               rel="noopener noreferrer"
               className={styles.buyLink}
             >
-              Buy this book →
+              Buy this book from Bookshop.org →
             </a>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import { Fragment, useRef } from "react";
 import { useFitWordSizes } from "../hooks/useFitWordSizes";
+import { useBookCover } from "../hooks/useBookCover";
 import styles from "./MobileBookCard.module.css";
 
 function Words({ text, sizes }) {
@@ -19,19 +20,31 @@ export default function MobileBookCard({ book, onClick }) {
 
   const titleSizes = useFitWordSizes(titleRef, book.title);
   const authorSizes = useFitWordSizes(authorRef, hasAuthor ? book.author : "");
+  const cover = useBookCover(book);
 
   return (
     <div className={styles.card} onClick={onClick}>
-      <div className={styles.content}>
-        <div ref={titleRef} className={styles.title}>
-          <Words text={book.title} sizes={titleSizes} />
-        </div>
-        {hasAuthor && (
-          <div ref={authorRef} className={styles.author}>
-            <Words text={book.author} sizes={authorSizes} />
+      {cover.src ? (
+        <img
+          src={cover.src}
+          alt={`${book.title} cover`}
+          className={styles.cover}
+          loading="lazy"
+          onError={cover.onError}
+          onLoad={cover.onLoad}
+        />
+      ) : (
+        <div className={styles.content}>
+          <div ref={titleRef} className={styles.title}>
+            <Words text={book.title} sizes={titleSizes} />
           </div>
-        )}
-      </div>
+          {hasAuthor && (
+            <div ref={authorRef} className={styles.author}>
+              <Words text={book.author} sizes={authorSizes} />
+            </div>
+          )}
+        </div>
+      )}
     </div>
   );
 }
