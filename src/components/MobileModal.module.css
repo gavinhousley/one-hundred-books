@@ -26,7 +26,7 @@
 }
 
 .map :global(.leaflet-tile-pane) {
-  filter: grayscale(1) contrast(1.1) brightness(0.85);
+  filter: saturate(1.15) contrast(1.05) brightness(0.85);
 }
 
 .scrim {
@@ -114,6 +114,16 @@
   padding: 4.5rem 1.25rem 2rem;
   color: #f7f4ee;
   font-family: "Georgia", "Times New Roman", serif;
+}
+
+.cover {
+  display: block;
+  width: 88px;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 2px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
+  margin-bottom: 0.9rem;
 }
 
 .title {

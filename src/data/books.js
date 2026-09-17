@@ -1342,8 +1342,8 @@ const books = [
     id: 90,
     wikiUrl: "https://en.wikipedia.org/wiki/Children_of_Gebelawi",
     authorWikiUrl: "https://en.wikipedia.org/wiki/Naguib_Mahfouz",
-    summary: "Children of Gebelawi is a novel by the Egyptian writer and Nobel laureate Naguib Mahfouz. Its Egyptian dialectal transliteration is Awlad Haretna. An alternative English title is Children of the Alley.",
-    title: "Children of Gebelawi",
+    summary: "Children of Gebelawi is a novel by the Egyptian writer and Nobel laureate Naguib Mahfouz. Its Egyptian dialectal transliteration is Awlad Haretna. It is published in English translation as Children of the Alley.",
+    title: "Children of the Alley",
     author: "Naguib Mahfouz",
     country: "Egypt",
     language: "Arabic",
@@ -1351,7 +1351,7 @@ const books = [
     region: "Africa",
     lat: 30.1,
     lng: 31.2,
-    link: "",
+    link: "https://uk.bookshop.org/a/17132/9781035907311",
   },
   {
     id: 91,
@@ -1442,6 +1442,9 @@ const books = [
     lat: 41.8,
     lng: 12.6,
     link: "https://uk.bookshop.org/a/17132/9780241728680",
+    // Penguin UK edition unavailable until Nov 2027; use the Steerforth
+    // Italia English edition's cover in the meantime (ISBN-10 1586420046).
+    coverIsbn: "9781586420048",
   },
   {
     id: 97,
