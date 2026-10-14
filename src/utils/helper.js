@@ -18,6 +18,15 @@ function project(lat, lng) {
   return { x, y };
 }
 
+const getSlug = (book) =>
+  book.title
+    .toLowerCase()
+    .trim()
+    .normalize("NFKD")
+    .replace(/\p{Diacritic}/gu, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
 const getIsbn = (link) => {
   const match = link?.match(/(\d{13})$/);
   return match ? match[1] : null;
@@ -62,6 +71,7 @@ export {
   eraLabel,
   getCentury,
   project,
+  getSlug,
   getIsbn,
   getCoverUrl,
   getBookshopCoverUrl,

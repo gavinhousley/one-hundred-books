@@ -1,4 +1,5 @@
 import { Fragment, useRef } from "react";
+import { Link } from "react-router-dom";
 import { useFitWordSizes } from "../hooks/useFitWordSizes";
 import { useBookCover } from "../hooks/useBookCover";
 import styles from "./MobileBookCard.module.css";
@@ -13,7 +14,7 @@ function Words({ text, sizes }) {
   ));
 }
 
-export default function MobileBookCard({ book, onClick }) {
+export default function MobileBookCard({ book, to }) {
   const titleRef = useRef(null);
   const authorRef = useRef(null);
   const hasAuthor = book.author !== "Anonymous";
@@ -23,7 +24,7 @@ export default function MobileBookCard({ book, onClick }) {
   const cover = useBookCover(book);
 
   return (
-    <div className={styles.card} onClick={onClick}>
+    <Link to={to} className={styles.card}>
       {cover.src ? (
         <img
           src={cover.src}
@@ -45,6 +46,6 @@ export default function MobileBookCard({ book, onClick }) {
           )}
         </div>
       )}
-    </div>
+    </Link>
   );
 }
