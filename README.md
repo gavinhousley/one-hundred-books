@@ -46,11 +46,11 @@ npm run preview
 
 ## Project structure
 
-├── src/          # React components, styles and book data
-├── scripts/      # [one line on what these do, e.g. "helper scripts for gathering cover art and summaries"]
-├── index.html    # App entry point
-├── vite.config.js
-└── vercel.json   # Vercel deployment config
+- src/          # React components, styles and book data
+- scripts/      # A pretender script to give each book page an actual URL, book cover helper, and a typewriter script that simulates the overview text arriving one word at a time
+- index.html    # App entry point
+- vite.config.js
+- vercel.json   # Vercel deployment config
 
 ## Data
 
