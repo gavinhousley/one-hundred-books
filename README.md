@@ -20,10 +20,10 @@ When working as a bookseller at Foyles, I came across this list and the urge gre
 
 ## Tech Stack
 
-Front end - React, JavaScript, HTML, CSS
-Build tooling - Vite, ESLint
-Hosting - Vercel
-Domain - https://onehundredbooks.org
+- Front end - React, JavaScript, HTML, CSS
+- Build tooling - Vite, ESLint
+- Hosting - Vercel
+- Domain - https://onehundredbooks.org
 
 ## Getting started
 
