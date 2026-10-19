@@ -2,7 +2,7 @@
 
 An interactive guide to the Norwegian Book Club's 100 greatest books of all time list from 2002. You can browse every title with cover art, a short summary, and a link to the ethical Bookshop.org to buy any of the books if interested.
 
-Live site: onehundredbooks.org
+Live site: https://onehundredbooks.org
 
 <img width="560" height="623" alt="screenshot of one hundred book website" src="https://github.com/user-attachments/assets/43b6087e-14b0-4a70-819c-1ff0a826ad55" />
 
@@ -23,7 +23,7 @@ When working as a bookseller at Foyles, I came across this list and the urge gre
 Front end - React, JavaScript, HTML, CSS
 Build tooling - Vite, ESLint
 Hosting - Vercel
-Domain - onehundredbooks.org
+Domain - https://onehundredbooks.org
 
 ## Getting started
 
@@ -74,7 +74,7 @@ The Norwegian Book Clubs list was published in 2002 after a vote among 100 autho
 
 ## Author
 
-Gavin Housley - gavinhousley.com - linkedin/in/gavinhousley - gitHub.com/gavinhousley
+Gavin Housley - [Portfolio](https://gavinhousley.com) - [LinkedIn](https://linkedin/in/gavinhousley) - [Github](https://github.com/gavinhousley)
 
 
 
